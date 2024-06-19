@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    height: 85px;
+    background-color: chartreuse;
+    position: relative;
+    padding: 20px 25px;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav{
+    position: absolute;
+    top: 27px;
+    right: 30px;
+}
+
+.nav2{
+    position: absolute;
+    top: 42px;
+    right: 30px;
+}
+
+footer{
+    background-color: chartreuse;
+    height: 100px;
+    position: relative;
+    padding: 12px 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.color_1main{
+    background-color: cyan;
+    height: 50px;
+    padding: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main_autos{
+    background-color: aqua;
+    padding-left: 7.5px;
+}
+
+main img{
+    width: 51%;
+    
+}
+
+
+.contenedor_limite_volkswagen{
+    background-color:  cyan;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;   
+    text-align: center;
+    max-width: 1200px;    
+    height: 310px;
+}
+
+.div_trasero{
+    background-color: aqua;
+}
+
+.padre{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    
+    background-color: yellowgreen;
+    width: 215px;
+    height: 270px;
+    border: 5px solid green;
+    border-radius: 50px;  
+    padding-top: 40px;
+    
+    
+}
+
+.card img{
+    width: 80%;
+    height: 65%;
+    border: 3px solid black;
+
+}
